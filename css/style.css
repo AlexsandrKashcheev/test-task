@@ -143,10 +143,90 @@ body {
     border-radius: 8px;
 }
 
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(107, 114, 128, 0.75);
+    top: 0;
+    left: 0;
+    display: none;
+}
 
+.popup-active{
+    display: block;
+}
 
+.popup__body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.popup__content {
+    background-color: #fff;
+    max-width: 692px;
+    padding: 24px 24px 34px 24px;
+    border-radius: 8px;
+    position: relative;
+}
 
+.close-popup {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
 
+.popup__img {
+    width: 100%;
+    height: 405px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.text-comment{
+    width: 644px;
+    height: 105px;
+    margin-bottom: 8px;
+    border: 1px solid #D1D5DB;
+}
+
+.text-name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #374151;
+}
+
+.hint{
+    font-size: 14px;
+    line-height: 20px;
+    color: #6b7280df;
+    margin-bottom: 24px;
+}
+
+.button{
+    width: 100%;
+    text-align: center;
+}
+
+.btn-save {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 9px 17px;
+    border: 0;
+    background-color: #4F46E5;
+    color: #fff;
+    border-radius: 6px;
+    transition: .2s ease;
+}
+
+.btn-save:hover {
+    background-color: #7068ff;
+}
 
 
 
